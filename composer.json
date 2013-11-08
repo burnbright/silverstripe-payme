@@ -1,0 +1,19 @@
+{
+    "name": "burnbright/silverstripe-payme",
+    "description": "Accept simple payments on SilverStripe websites",
+    "license": "BSD-2",
+    "type": "silverstripe-module",
+    "authors": [
+        {
+            "name": "Jeremy Shipman",
+            "email": "jeremy@burnbright.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "silverstripe/payment": "*"
+    },
+    "extra": {
+        "installer-name": "payme",
+    }
+}
